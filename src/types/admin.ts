@@ -1,0 +1,15 @@
+import { Game } from '@/types';
+
+export enum GameListRecordStatus {
+  INCOMPLETED = 'incompleted',
+  COMPLETED = 'completed',
+}
+
+export type GameListRecord = {
+  recordId: number;
+  created: Date;
+  recordName: string;
+  status: `${GameListRecordStatus}`;
+  gameList: Game[];
+  isActive: boolean;
+};

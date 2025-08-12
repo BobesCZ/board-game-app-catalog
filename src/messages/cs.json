@@ -1,0 +1,418 @@
+{
+  "common": {
+    "noOptionsText": "Žádné položky",
+    "showMore": "Více o hře",
+    "showLess": "Skrýt"
+  },
+  "meta": {
+    "title": "Webový katalog deskových her"
+  },
+  "gameCard": {
+    "playingtime": "{playingtime} min",
+    "playersCount": "{minplayers} {count, plural, one {hráč} other {hráči}}",
+    "playersCountInterval": "{minplayers}–{maxplayers} {count, plural, few {hráči} other {hráčů}}",
+    "weight": {
+      "light": "Lehká hra (obtížnost 1–5)",
+      "mediumHeavy": "Středně těžká hra (obtížnost 1–5)",
+      "heavy": "Těžká hra (obtížnost 1–5)",
+      "hardcore": "Hardcore hra (obtížnost 1–5)"
+    },
+    "minage": "Doporučený věk: od {minage} let",
+    "goToBgg": "BoardGameGeek.com",
+    "goToZh": "Zatrolene-hry.cz",
+    "usersCount": "{usersCount} hodnocení",
+    "yourBggRating": "Vaše BGG hodnocení",
+    "noInfo": "O této hře nemáme více informací",
+    "langs": {
+      "irrelevant": "jazykově nezávislé",
+      "cz": "česky",
+      "eng": "anglicky",
+      "de": "německy"
+    },
+    "location": "Umístění",
+    "locationTag": "Hru najdete na polici s názvem {location}"
+  },
+  "rank": {
+    "pageTitle": "Nejlepší hry",
+    "tabLabel": "Nejlepší hry",
+    "form": {
+      "rankName": {
+        "label": "Žebříček her",
+        "options": {
+          "boardgame": "nejlepší",
+          "strategygames": "strategická",
+          "wargames": "válečná",
+          "abstracts": "abstraktní",
+          "familygames": "rodinná",
+          "thematic": "tematická",
+          "partygames": "párty",
+          "childrensgames": "pro děti",
+          "cgs": "TCG/LCG"
+        }
+      }
+    }
+  },
+  "gameList": {
+    "searchResults": "Vyhledané hry",
+    "noResults": {
+      "title": "Nenalezeny žádné hry",
+      "content": "Zkuste změnit parametry vyhledávání."
+    }
+  },
+  "pagination": {
+    "showMore": "{itemsCount, plural, one {Další} few {Další} other {Dalších}} {itemsCount} {itemsCount, plural, one {hra} few {hry} other {her}}",
+    "showMoreGroups": "{itemsCount, plural, one {Další} few {Další} other {Dalších}} {itemsCount} {itemsCount, plural, one {sekci} few {sekce} other {sekcí}}"
+  },
+  "search": {
+    "pageTitle": "Hledat hru podle parametrů",
+    "tabLabel": "Podle parametrů",
+    "form": {
+      "playersCount": {
+        "label": "Pro kolik lidí?",
+        "options": {
+          "0": "– nezáleží –",
+          "1": "pro 1 hráče",
+          "200": "pro 2 hráče (jen dvojkovky)",
+          "2": "pro 2 hráče",
+          "3": "pro 3 hráče",
+          "4": "pro 4 hráče",
+          "5": "pro 5 hráčů",
+          "6": "pro 6 hráčů",
+          "7": "pro 7 a více hráčů"
+        }
+      },
+      "playingTime": {
+        "label": "Jak dlouhá hra?",
+        "options": {
+          "all": "– nezáleží –",
+          "filler": "filler (do 20 min)",
+          "short": "krátká (21–59 min)",
+          "medium": "středně dlouhá (60–90 min)",
+          "long": "na celý večer (91 min a více)"
+        }
+      },
+      "categories": {
+        "label": "Kategorie her",
+        "groups": {
+          "favourites": "Oblíbené",
+          "topics": "Témata",
+          "other": "Ostatní"
+        }
+      },
+      "mechanics": {
+        "label": "Herní mechaniky",
+        "groups": {
+          "favourites": "Oblíbené",
+          "other": "Ostatní"
+        }
+      },
+      "lang": {
+        "label": "Jazyková verze",
+        "options": {
+          "all": "– nezáleží –",
+          "cz": "česky",
+          "eng": "anglicky",
+          "de": "německy"
+        }
+      },
+      "ordering": {
+        "label": "Řazení",
+        "options": {
+          "name": "Abecedně",
+          "rating": "Podle hodnocení",
+          "weight": "Podle obtížnosti"
+        }
+      },
+      "bggStatus": {
+        "label": "Můj BGG"
+      }
+    }
+  },
+  "name": {
+    "pageTitle": "Hledat hru podle jména",
+    "tabLabel": "Podle jména",
+    "form": {
+      "name": {
+        "label": "Název hry (český nebo původní)"
+      }
+    }
+  },
+  "added": {
+    "pageTitle": "Nově přidané hry",
+    "tabLabel": "Nově přidané hry"
+  },
+  "bgg": {
+    "categories": {
+      "historical": "Historická",
+      "popculture": "Filmy, videohry, knihy, komiksy",
+      "abstractStrategy": "Abstraktní",
+      "actionDexterity": "Postřehová",
+      "adventure": "Dobrodružná",
+      "animals": "Zvířátka",
+      "arabian": "Blízký východ",
+      "aviationFlight": "Letectví",
+      "bluffing": "Blafovací",
+      "cardGame": "Karetní",
+      "childrensGame": "Pro děti",
+      "cityBuilding": "Budování měst",
+      "civilization": "Civilizační",
+      "collectibleComponents": "Sběratelská",
+      "deduction": "Dedukce",
+      "dice": "Kostková",
+      "economic": "Ekonomická",
+      "educational": "Vzdělávací",
+      "environmental": "Životní prostředí",
+      "exploration": "Objevování",
+      "fantasy": "Fantasy",
+      "farming": "Pěstování",
+      "fighting": "Bojování",
+      "horror": "Horor",
+      "humor": "Humor a zábava",
+      "industryManufacturing": "Průmyslová výroba",
+      "mafia": "Mafiáni",
+      "math": "Matematika",
+      "matureAdult": "Pro dospělé",
+      "maze": "Bludiště",
+      "medical": "Zdravotnictví",
+      "memory": "Paměťová",
+      "murderMystery": "Detektivní",
+      "music": "Hudba",
+      "mythology": "Mytologie",
+      "nautical": "Námořnictví",
+      "negotiation": "Vyjednávání",
+      "partyGame": "Párty hra",
+      "pirates": "Piráti",
+      "political": "Politika",
+      "puzzle": "Logická",
+      "racing": "Závodní",
+      "religious": "Náboženství",
+      "scienceFiction": "Sci-fi",
+      "spaceExploration": "Vesmír",
+      "spiesSecretAgents": "Špioni",
+      "sports": "Sport",
+      "territoryBuilding": "Budování území",
+      "trains": "Vlaky",
+      "trivia": "Znalostní",
+      "wargame": "Válečná",
+      "wordGame": "Slovní",
+      "zombies": "Zombies"
+    },
+    "mechanics": {
+      "areaMajorityInfluence": "Kontrola území (Area Control)",
+      "cooperativeGame": "Kooperativní",
+      "deckBagAndPoolBuilding": "Tvorba balíčku (Deck Building)",
+      "pushYourLuck": "Pokoušej štěstí (Push Your Luck)",
+      "rolePlaying": "Hraní rolí (Role Playing)",
+      "acting": "Acting",
+      "actionDrafting": "Action Drafting",
+      "actionPoints": "Action Points",
+      "actionQueue": "Action Queue",
+      "actionRetrieval": "Action Retrieval",
+      "actionTimer": "Action Timer",
+      "actionEvent": "Action/Event",
+      "advantageToken": "Advantage Token",
+      "alliances": "Alliances",
+      "areaMovement": "Area Movement",
+      "areaImpulse": "Area-Impulse",
+      "auction": "Auction/Bidding",
+      "automaticResourceGrowth": "Automatic Resource Growth",
+      "bettingAndBluffing": "Betting and Bluffing",
+      "bias": "Bias",
+      "bidsAsWagers": "Bids As Wagers",
+      "bingo": "Bingo",
+      "bribery": "Bribery",
+      "campaignBattleCardDriven": "Campaign / Battle Card Driven",
+      "cardPlayConflictResolution": "Card Play Conflict Resolution",
+      "catchTheLeader": "Catch the Leader",
+      "chaining": "Chaining",
+      "chitPullSystem": "Chit-Pull System",
+      "closedDrafting": "Closed Drafting",
+      "closedEconomyAuction": "Closed Economy Auction",
+      "commandCards": "Command Cards",
+      "commoditySpeculation": "Commodity Speculation",
+      "communicationLimits": "Communication Limits",
+      "connections": "Connections",
+      "constrainedBidding": "Constrained Bidding",
+      "contracts": "Contracts",
+      "crayonRailSystem": "Crayon Rail System",
+      "criticalHitsAndFailures": "Critical Hits and Failures",
+      "cubeTower": "Cube Tower",
+      "deckConstruction": "Deck Construction",
+      "deduction": "Deduction",
+      "delayedPurchase": "Delayed Purchase",
+      "diceRolling": "Dice Rolling",
+      "dieIconResolution": "Die Icon Resolution",
+      "differentDiceMovement": "Different Dice Movement",
+      "drawing": "Drawing",
+      "elapsedRealTimeEnding": "Elapsed Real Time Ending",
+      "enclosure": "Enclosure",
+      "endGameBonuses": "End Game Bonuses",
+      "events": "Events",
+      "finaleEnding": "Finale Ending",
+      "flicking": "Flicking",
+      "follow": "Follow",
+      "forceCommitment": "Force Commitment",
+      "gridCoverage": "Grid Coverage",
+      "gridMovement": "Grid Movement",
+      "handManagement": "Hand Management",
+      "hexagonGrid": "Hexagon Grid",
+      "hiddenMovement": "Hidden Movement",
+      "hiddenRoles": "Hidden Roles",
+      "hiddenVictoryPoints": "Hidden Victory Points",
+      "highestLowestScoring": "Highest-Lowest Scoring",
+      "hotPotato": "Hot Potato",
+      "iCutYouChoose": "I Cut, You Choose",
+      "impulseMovement": "Impulse Movement",
+      "income": "Income",
+      "increaseValueOfUnchosenResources": "Increase Value of Unchosen Resources",
+      "induction": "Induction",
+      "interrupts": "Interrupts",
+      "investment": "Investment",
+      "killSteal": "Kill Steal",
+      "kingOfTheHill": "King of the Hill",
+      "ladderClimbing": "Ladder Climbing",
+      "layering": "Layering",
+      "legacyGame": "Legacy Game",
+      "lineDrawing": "Line Drawing",
+      "lineOfSight": "Line of Sight",
+      "loans": "Loans",
+      "loseATurn": "Lose a Turn",
+      "mancala": "Mancala",
+      "mapAddition": "Map Addition",
+      "mapDeformation": "Map Deformation",
+      "mapReduction": "Map Reduction",
+      "market": "Market",
+      "matching": "Matching",
+      "measurementMovement": "Measurement Movement",
+      "meldingAndSplaying": "Melding and Splaying",
+      "memory": "Memory",
+      "minimapResolution": "Minimap Resolution",
+      "modularBoard": "Modular Board",
+      "moveThroughDeck": "Move Through Deck",
+      "movementPoints": "Movement Points",
+      "movementTemplate": "Movement Template",
+      "movingMultipleUnits": "Moving Multiple Units",
+      "multiUseCards": "Multi-Use Cards",
+      "multipleMaps": "Multiple Maps",
+      "narrativeChoiceParagraph": "Narrative Choice / Paragraph",
+      "negotiation": "Negotiation",
+      "neighborScope": "Neighbor Scope",
+      "networkAndRouteBuilding": "Network and Route Building",
+      "oncePerGameAbilities": "Once-Per-Game Abilities",
+      "openDrafting": "Open Drafting",
+      "orderCounters": "Order Counters",
+      "ordering": "Ordering",
+      "ownership": "Ownership",
+      "paperAndPencil": "Paper-and-Pencil",
+      "passedActionToken": "Passed Action Token",
+      "patternBuilding": "Pattern Building",
+      "patternMovement": "Pattern Movement",
+      "patternRecognition": "Pattern Recognition",
+      "physicalRemoval": "Physical Removal",
+      "pickUpAndDeliver": "Pick-up and Deliver",
+      "piecesAsMap": "Pieces as Map",
+      "playerElimination": "Player Elimination",
+      "playerJudge": "Player Judge",
+      "pointToPointMovement": "Point to Point Movement",
+      "predictiveBid": "Predictive Bid",
+      "prisonersDilemma": "Prisoner's Dilemma",
+      "programmedMovement": "Programmed Movement",
+      "questionsAndAnswers": "Questions and Answers",
+      "race": "Race",
+      "randomProduction": "Random Production",
+      "ratioCombatResultsTable": "Ratio / Combat Results Table",
+      "reRollingAndLocking": "Re-rolling and Locking",
+      "realTime": "Real-Time",
+      "relativeMovement": "Relative Movement",
+      "resourceQueue": "Resource Queue",
+      "resourceToMove": "Resource to Move",
+      "rockPaperScissors": "Rock-Paper-Scissors",
+      "rolesWithAsymmetricInformation": "Roles with Asymmetric Information",
+      "rollSpinAndMove": "Roll / Spin and Move",
+      "rondel": "Rondel",
+      "scenarioMissionCampaignGame": "Scenario / Mission / Campaign Game",
+      "scoreAndResetGame": "Score-and-Reset Game",
+      "secretUnitDeployment": "Secret Unit Deployment",
+      "selectionOrderBid": "Selection Order Bid",
+      "semiCooperativeGame": "Semi-Cooperative Game",
+      "setCollection": "Set Collection",
+      "simulation": "Simulation",
+      "simultaneousActionSelection": "Simultaneous Action Selection",
+      "singing": "Singing",
+      "singleLoserGame": "Single Loser Game",
+      "slidePush": "Slide/Push",
+      "soloSolitaireGame": "Solo / Solitaire Game",
+      "speedMatching": "Speed Matching",
+      "squareGrid": "Square Grid",
+      "stackingAndBalancing": "Stacking and Balancing",
+      "statCheckResolution": "Stat Check Resolution",
+      "staticCapture": "Static Capture",
+      "stockHolding": "Stock Holding",
+      "storytelling": "Storytelling",
+      "suddenDeathEnding": "Sudden Death Ending",
+      "tags": "Tags",
+      "takeThat": "Take That",
+      "targetedClues": "Targeted Clues",
+      "teamBasedGame": "Team-Based Game",
+      "techTreesTechTracks": "Tech Trees / Tech Tracks",
+      "threeDimensionalMovement": "Three Dimensional Movement",
+      "tilePlacement": "Tile Placement",
+      "trackMovement": "Track Movement",
+      "trading": "Trading",
+      "traitorGame": "Traitor Game",
+      "trickTaking": "Trick-taking",
+      "tugOfWar": "Tug of War",
+      "turnOrder": "Turn Order",
+      "variablePhaseOrder": "Variable Phase Order",
+      "variablePlayerPowers": "Variable Player Powers",
+      "variableSetUp": "Variable Set-up",
+      "victoryPointsAsAResource": "Victory Points as a Resource",
+      "voting": "Voting",
+      "workerPlacement": "Worker Placement",
+      "zoneOfControl": "Zone of Control"
+    }
+  },
+  "footer": {
+    "goToClient": "Oficiální seznam her",
+    "gamesCount": "Katalog obsahuje {{gamesCount}} her.",
+    "recordCreated": "Poslední aktualizace {{recordCreated}}.",
+    "createdBy": "Vytvořil"
+  },
+  "searchBar": "Vyhledat hru",
+  "myBgg": {
+    "pageTitle": "Můj BoardGameGeek",
+    "tabLabel": "Můj BGG",
+    "bggLoader": "Načtěte svůj profil",
+    "myProfile": "Můj profil",
+    "infoText1": "Po zadání vašeho uživatelského jména na BoardGameGeeku se stáhnou veřejně dostupná data bez nutnosti přihlášení.",
+    "infoText2": "Data jsou uložena lokálně v prohlížeči na vašem zařízení.",
+    "created": "Načteno {{created}}",
+    "reload": "Načíst aktuální data",
+    "catalogCount": "V tomto katalogu",
+    "bggCount": "Můj BGG",
+    "loadButton": "Načíst profil",
+    "clearButton": "Zrušit propojení",
+    "backButton": "Zpět na katalog",
+    "usernameError": "Uživatel nenalezen.",
+    "benefits": {
+      "title": "Výhody propojení s BGG",
+      "rating": "U her uvidíte vaše hodnocení (modré hvězdičky) namísto průměrného BGG hodnocení (žluté hvězdičky)",
+      "filters1": "Můžete filtrovat jen vámi hodnocené/nehodnocené hry",
+      "filters2": "Můžete filtrovat podle kolekcí Want To Play, Want To Buy a Wishlist"
+    },
+    "form": {
+      "username": {
+        "label": "Username"
+      }
+    },
+    "collection": {
+      "all": "– vše –",
+      "rated": "Ohodnoceno na BGG",
+      "unrated": "Nehodnoceno na BGG",
+      "wanttoplay": "Want To Play",
+      "wanttobuy": "Want To Buy",
+      "wishlist": "Wishlist"
+    },
+    "addProfile": "Přidat profil"
+  }
+}
